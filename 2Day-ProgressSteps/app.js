@@ -1,12 +1,10 @@
 const nextBtn = document.querySelector('#btn-next');
 const prevBtn = document.querySelector('#btn-prev');
 const steps = document.querySelectorAll('.step');
-
-const CIRCLE_ACTIVE = 'step--circle';
-const LINE_ACTIVE = 'step--line';
+const progressLine = document.querySelector('#progress__line');
+const CIRCLE_ACTIVE = 'active--circle';
 
 const btnToggle = (btn, toggle) => {
-
   if (toggle === 'disabled') {
     btn.disabel = 'true';
     btn.style.cursor = 'no-drop';
@@ -16,51 +14,56 @@ const btnToggle = (btn, toggle) => {
     btn.style.cursor = 'pointer';
     btn.style.background = 'rgb(15, 136, 248)';
   }
-
-
 };
 
-let index = 0;
+let index = 1;
 
 const currentStepIncrease = (i) => {
-
-  steps[i].classList.add(LINE_ACTIVE);
-  steps[i + 1].classList.add(CIRCLE_ACTIVE);
-
+  if (index < steps.length) {
+    progressLine.style.width = index * 25 + '%';
+    steps[i].classList.add(CIRCLE_ACTIVE);
+  }
 };
 
 const currentStepDecrease = (i) => {
-
-  steps[i - 1].classList.remove(LINE_ACTIVE);
-  steps[i].classList.remove(CIRCLE_ACTIVE);
-
+  if (index >= 1) {
+    steps[i].classList.remove(CIRCLE_ACTIVE);
+    progressLine.style.width = index * 25 - 25 + '%';
+  }
 };
 
 const nextStep = (i) => {
   btnToggle(prevBtn, 'active');
 
-  if(index >= steps.length - 2) {
+  if (index === steps.length - 1) {
     btnToggle(nextBtn, 'disabled');
   }
 
-  currentStepIncrease(index);
-  index++;
-
-  console.log(index);
-  
+  if (index == steps.length) {
+    index = steps.length;
+    currentStepIncrease(index);
+  } else {
+    currentStepIncrease(index);
+    index++;
+  }
 };
 
 const prevStep = (i) => {
-
-  if(index <= steps.length - 2) {
+  if (index >= steps.length - 2) {
     btnToggle(nextBtn, 'active');
   }
 
-  currentStepDecrease(index);
-  index--;
+  if (index === 1) {
+    index = 1;
+    btnToggle(prevBtn, 'disabled');
+  } else {
+    index--;
+    currentStepDecrease(index);
+  }
 
   console.log(index);
-  
+
+
 };
 
 
