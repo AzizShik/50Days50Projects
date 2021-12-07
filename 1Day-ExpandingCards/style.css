@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #272729;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.cards__inner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cards__item {
+  height: 100%;
+  margin: 0 5px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.4s ease;
+
+  width: 20%;
+  flex-grow: 1;
+}
+
+.cards__item-img {
+  min-height: 75vh;
+  width: 100%;
+  border-radius: 10px;
+  vertical-align: top;
+}
+
+.cards__item-title {
+  position: absolute;
+  font-weight: 500;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease;
+  transform: translateY(-100px);
+  bottom: 15px;
+  left: 15px;
+}
+
+.cards__item--active {
+  width: 100%;
+}
+
+.cards__item--active .cards__item-title {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}
+
+@media (hover: hover) {
+  .cards__item:hover {
+    box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+  }
+}
