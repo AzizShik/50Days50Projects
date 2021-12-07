@@ -29,6 +29,7 @@ img {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  align-items: center;
 }
 
 .cards__item {
@@ -40,12 +41,13 @@ img {
   transition: all 0.4s ease;
 
   width: 20%;
-  flex-grow: 1;
+
 }
 
 .cards__item-img {
   min-height: 75vh;
   width: 100%;
+  height: 100%;
   border-radius: 10px;
   vertical-align: top;
 }
@@ -63,6 +65,7 @@ img {
 
 .cards__item--active {
   width: 100%;
+  height: 100%;
 }
 
 .cards__item--active .cards__item-title {
