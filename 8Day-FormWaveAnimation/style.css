@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Mulish", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  overflow-x: hidden;
+  background: #11161b;
+  overflow-x: hidden;
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form {
+  background: rgb(0, 140, 255);
+  padding: 30px;
+  padding-bottom: 20px;
+  border-radius: 4px;
+}
+
+.form__title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 3.2rem;
+}
+
+.form__label {
+  display: block;
+  position: relative;
+}
+
+.form__input {
+  padding: 5px;
+  width: 100%;
+  border: none;
+  margin-bottom: 4rem;
+  background: transparent;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  outline: #fff;
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.form__btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.6rem;
+  border-radius: 4px;
+  background: rgb(255, 255, 255);
+  border: none;
+  color: #333;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14),
+    0 3px 3px -2px rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.25s ease;
+}
+
+.form__register {
+  font-size: 1.6rem;
+}
+
+.form__register-link {
+  margin-left: 5px;
+  text-decoration: none;
+  color: rgb(17, 17, 179);
+  transition: all 0.25s ease;
+}
+
+.form__control {
+  position: relative;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+}
+
+.form__label span {
+  display: inline-block;
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.form__input:focus + .form__label span {
+  transform: translateY(-20px);
+}
+
+@media (hover: hover) {
+  .form__btn:hover {
+    box-shadow: 0 12px 17px 2px rgba(0, 0, 0, 0.14),
+      0 5px 22px 4px rgba(0, 0, 0, 0.12), 0 7px 8px -4px rgba(0, 0, 0, 0.2);
+    background: #f1f2f3;
+  }
+
+  .form__btn:active {
+    transform: translate(2px, 2px) scale(0.98);
+    background: #e1e2e4;
+  }
+  .form__register-link:hover {
+    color: rgb(6, 6, 75);
+  }
+  
+  .form__input:focus {
+    border-block-color: lightblue;
+  }
+
+  .form__input:focus + .form__label span{
+    color: lightblue;
+  }
+
+}

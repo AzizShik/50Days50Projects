@@ -6,4 +6,4 @@
 4Day Hidden Search https://azizshik.github.io/50Days50Projects/4Day-HiddenSearch/ <br>
 5Day Blurry Loading https://azizshik.github.io/50Days50Projects/5Day-BlurryLoading/ <br>
 6Day Scroll Animation https://azizshik.github.io/50Days50Projects/6Day-ScrollAnimation/ <br>
-7Day Scroll Animation https://azizshik.github.io/50Days50Projects/7Day-SplitLangingPage/ <br>
+7Day Split Landing Page https://azizshik.github.io/50Days50Projects/7Day-SplitLangingPage/ <br>
