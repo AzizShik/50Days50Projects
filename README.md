@@ -7,4 +7,4 @@
 5Day Blurry Loading https://azizshik.github.io/50Days50Projects/5Day-BlurryLoading/ <br>
 6Day Scroll Animation https://azizshik.github.io/50Days50Projects/6Day-ScrollAnimation/ <br>
 7Day Split Landing Page https://azizshik.github.io/50Days50Projects/7Day-SplitLangingPage/ <br>
-8Day Split Landing Page https://azizshik.github.io/50Days50Projects/8Day-FormWaveAnimation/ <br>
+8Day Form Wave Animation https://azizshik.github.io/50Days50Projects/8Day-FormWaveAnimation/ <br>
