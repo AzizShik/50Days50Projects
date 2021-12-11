@@ -9,3 +9,4 @@
 7Day Split Landing Page https://azizshik.github.io/50Days50Projects/7Day-SplitLangingPage/ <br>
 8Day Form Wave Animation https://azizshik.github.io/50Days50Projects/8Day-FormWaveAnimation/ <br>
 9Day Sounds Board https://azizshik.github.io/50Days50Projects/9Day-SoundsBoard/ <br>
+10Day Dad Jokes https://azizshik.github.io/50Days50Projects/10Day-DadJokes/ <br>
