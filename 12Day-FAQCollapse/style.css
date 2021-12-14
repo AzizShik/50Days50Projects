@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Mulish", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  overflow-x: hidden;
+  background: #f1f2f3;
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1230px;
+  padding: 0 15px;
+}
+
+.title {
+  margin-top: 5rem;
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+.faq {
+  margin-top: 4rem;
+}
+
+.faq__item {
+  border: 1px solid grey;
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 750px;
+  width: 100%;
+
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.20);
+  background: #fff;
+  transition: all .25s ease;
+}
+
+.fa-comments {
+  position: absolute;
+  font-size: 100px;
+  left: 10px;
+  top: 10px;
+  z-index: 1;
+  color: green;
+
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+  transition: all .25s ease;
+}
+
+.faq__toggle {
+  border: none;
+  font-size: 27px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 0.25s ease;
+  padding: 10px;
+  background: none;
+}
+
+.faq__toggle .fas {
+  transition: all .25s ease;
+}
+
+.faq__title {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.faq__answer {
+  margin-top: 1rem;
+  font-size: 2rem;
+
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+  transition: all .25s ease;
+}
+
+.fa-times-circle {
+  color: rgb(255, 0, 0);
+}
+
+.fa-arrow-down {
+  color: rgb(0, 143, 0);
+}
+
+.faq-active {
+  box-shadow: 0 8px 10px 1px rgba(0,143,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.20);
+  border-color: rgb(0, 143, 0);
+  border-radius: 10px;
+}
+
+.faq-active .fa-comments {
+  opacity: 0.1;
+  height: auto;
+  visibility: visible;
+}
+
+.faq-active .faq__answer {
+  opacity: 1;
+  height: auto;
+  visibility: visible;
+  
+}
+
+@media (hover: hover) {
+  .faq__toggle:hover {
+    transform: scale(1.15);
+  }
+
+  .faq__toggle:active {
+    transform: scale(0.95);
+  }
+}
