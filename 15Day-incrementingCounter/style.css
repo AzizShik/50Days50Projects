@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  overflow-x: hidden;
+  overflow-x: hidden;
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  background: rgb(65,58,181);
+  background: linear-gradient(0deg, rgba(65,58,181,1) 0%, rgba(64,0,0,1) 100%);
+}
+
+
+.counter {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  width: 100%;
+}
+
+.counter__item {
+  text-align: center;
+}
+
+.counter__item-icon {
+}
+
+.counter .fab {
+  font-size: 10rem;
+}
+
+.fa-twitter {
+color: #00acee ;
+}
+
+.counter__item-span {
+  display: inline-block;
+  font-size: 3.6rem;
+  margin-top: 2rem;
+  font-weight: 700;
+}
+.counter__item-descr {
+  margin-top: 2rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+.fa-youtube {
+  color: #c4302b ;
+}
+.fa-facebook {
+  color: #3B5998;
+}
+
+
