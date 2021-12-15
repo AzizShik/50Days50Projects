@@ -12,3 +12,4 @@
 10Day Dad Jokes https://azizshik.github.io/50Days50Projects/10Day-DadJokes/ <br>
 11Day Event Key Codes https://azizshik.github.io/50Days50Projects/11Day-EventKeyCodes/ <br>
 12Day FAQ Collapse https://azizshik.github.io/50Days50Projects/12Day-FAQCollapse/ <br>
+13Day Random Choice Picker https://azizshik.github.io/50Days50Projects/13Day-RandomChoicePicker/ <br>
