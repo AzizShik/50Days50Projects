@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
+
+:root {
+  --border-color: rgb(0, 75, 119);
+  --color: rgb(0, 162, 255);
+  --bgActiveColor: rgb(0, 63, 199);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Bakbak One", cursive;
+  line-height: 1.5;
+  font-weight: 400;
+  overflow-x: hidden;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: rgb(0, 162, 255);
+}
+
+.title {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  font-size: 3.6rem;
+}
+
+.descr {
+  margin-bottom: 2rem;
+  font-size: 2.7rem;
+}
+
+.cup {
+  background: #fff;
+  height: 400px;
+  max-width: 400px;
+  width: 100%;
+  color: var(--color);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 50px 50px;
+  border: 3px solid var(--border-color);
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.20);
+  overflow: hidden;
+}
+
+
+
+.cup__remained {
+  font-size: 2.4rem;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+}
+
+.percentage {
+  width: 100%;
+  border-radius: 0 0 45px 45px;
+  font-size: 3.2rem;
+  background: var(--bgActiveColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cups {
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.4rem;
+  max-width: 465px;
+}
+
+.cup__small {
+  width: 75px;
+  min-height: auto;
+  height: auto;
+  min-height: 100px;
+  margin: 0 20px;
+  margin-bottom: 2rem;
+  border-radius: 0 0 20px 20px;
+  transition: all .25s ease;
+  cursor: pointer;
+}
+
+.text {
+  font-size: 1.8rem;
+  margin-top: 3rem;
+}
+
+.cup.cup__small.full {
+  background-color: var(--bgActiveColor);
+}
+
+
+@media(hover: hover) {
+  .cup__small:hover {
+    border: 3px solid  var(--bgActiveColor);
+    box-shadow: 0 8px 10px 1px rgba(255, 255, 255, 0.14), 0 3px 14px 2px rgba(255, 255, 255, 0.12), 0 5px 5px -3px rgba(255, 255, 255, 0.2);
+  }
+
+  .cup__small:active {
+    transform: scale(.97);
+  }
+  
+}
