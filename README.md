@@ -17,3 +17,4 @@
 15Day Incrementing Counter https://azizshik.github.io/50Days50Projects/15Day-incrementingCounter/ <br>
 16Day Drink Water https://azizshik.github.io/50Days50Projects/16Day-DrinkWater/ <br>
 17Day MovieApp https://azizshik.github.io/50Days50Projects/17Day-MovieApp/ <br>
+18Day Background Slider https://azizshik.github.io/50Days50Projects/18Day-BackgroundSlider/ <br>
