@@ -22,3 +22,4 @@
 20Day Button Ripple Effect https://azizshik.github.io/50Days50Projects/20Day-ButtonRippleEffect/ <br>
 21Day Drag N Drop https://azizshik.github.io/50Days50Projects/21Day-DragNDrop/ <br>
 22Day Drawing App https://azizshik.github.io/50Days50Projects/22Day-DrawingApp/ <br>
+23Day Kinetic CSS Loader https://azizshik.github.io/50Days50Projects/23Day-KineticCSSLoader/ <br>
