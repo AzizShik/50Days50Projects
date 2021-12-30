@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+img {
+  max-height: 100%;
+  width: 100%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  overflow-x: hidden;
+  color: #333;
+  background: #f1f2f3;
+}
+
+.container {
+  max-width: 1470px;
+  padding: 0 15px;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  background: rgba(30, 34, 37, 0.822);
+  z-index: 100;
+  transition: all .3s ease;
+}
+
+.header a {
+  color: #fff;
+  transition: all .3s ease;
+}
+
+.header__inner {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  transition: all .3s ease;
+}
+.header__logo {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.header__ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+.header__li {
+  font-size: 22px;
+}
+.header__link {
+}
+a.pointed-link {
+  color: rgb(197, 13, 13);
+}
+
+.header--active {
+  background: rgba(255, 255, 255, 1);
+}
+
+.header--active .header__inner {
+  padding: 10px;
+}
+
+.header--active a {
+  color: #333;
+}
+.header--active .pointed-link {
+  color: rgb(197, 13, 13);
+}
+
+.main {
+}
+.welcome {
+  background-image: url('https://images.unsplash.com/photo-1501163268664-3fdf329d019f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+.welcome__title {
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.welcome__descr {
+  text-align: center;
+  font-size: 32px;
+}
+.section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.section-first {
+}
+.section__title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.section__text {
+  font-size: 21px;
+  font-weight: 400;
+}
+.section-second {
+  background: #fff;
+}
+.section-third {
+  background: #999;
+  color: #fff;
+}
