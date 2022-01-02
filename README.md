@@ -26,3 +26,4 @@
 24Day Content Placeholder https://azizshik.github.io/50Days50Projects/24Day-ContentPlaceholder/ <br>
 25Day Sticky Nav https://azizshik.github.io/50Days50Projects/25Day-StickyNav/ <br>
 26Day Vertical Slider https://azizshik.github.io/50Days50Projects/26Day-DoubleVerticalSlider/ <br>
+27Day Toast Notification https://azizshik.github.io/50Days50Projects/27Day-ToastNotification/ <br>
