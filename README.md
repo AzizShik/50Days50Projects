@@ -28,3 +28,4 @@
 26Day Vertical Slider https://azizshik.github.io/50Days50Projects/26Day-DoubleVerticalSlider/ <br>
 27Day Toast Notification https://azizshik.github.io/50Days50Projects/27Day-ToastNotification/ <br>
 28Day Github Profiles https://azizshik.github.io/50Days50Projects/28Day-GithubProfiles/ <br>
+29Day Double Heart Click https://azizshik.github.io/50Days50Projects/29Day-DoubleHeartClick/ <br>
