@@ -30,3 +30,4 @@
 28Day Github Profiles https://azizshik.github.io/50Days50Projects/28Day-GithubProfiles/ <br>
 29Day Double Heart Click https://azizshik.github.io/50Days50Projects/29Day-DoubleHeartClick/ <br>
 30Day Auto Text Effect https://azizshik.github.io/50Days50Projects/30Day-AutoTextEffect/ <br>
+31Day Password Generator https://azizshik.github.io/50Days50Projects/31Day-PasswordGenerator/ <br>
