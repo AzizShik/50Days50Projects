@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: transparent;
+}
+
+img {
+  max-height: 100%;
+  width: 100%;
+  vertical-align: top;
+  object-fit: cover;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  overflow-x: hidden;
+  color: #fff;
+  background: #000000ad;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  width: 200px;
+  font-size: 24px;
+}
+
+.toggle {
+  visibility: hidden;
+}
+
+.label {
+  width: 80px;
+  height: 40px;
+  background: #b4b4b4;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all .4s ease;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.toggle:checked + .label {
+  background: rgb(102, 0, 197);
+}
+
+.ball {
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  height: 34px;
+  width: 34px;
+  background: #fff;
+  border-radius: 50%;
+  transition: all .4s ease;
+}
+
+.toggle:checked + .label .ball {
+  left: 42px;
+}
+
+.span {
+  margin-left: 20px;
+}
+
+.label:hover {
+  background: #a5a5a5;
+
+}
