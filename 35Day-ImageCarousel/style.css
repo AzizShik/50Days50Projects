@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+img {
+  max-height: 100%;
+  width: 100%;
+  vertical-align: top;
+  object-fit: cover;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  overflow-x: hidden;
+  color: #222;
+  background-color: #444444;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.carousel {
+  max-width: 1360px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.carousel__content {
+  width: 1300px;
+}
+
+.carousel__item {
+  display: none;
+}
+
+.carousel__item-img {
+  height: 720px;
+}
+
+.carousel__tools {
+  display: flex;
+  gap: 5px;
+}
+
+.btn {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.28);
+  border: 2px solid #fff;
+  width: 100%;
+  font-size: 32px;
+  color: #fff;
+  background: purple;
+  padding: 12px 24px;
+  transition: all 0.25s ease;
+}
+
+.btn:hover {
+  opacity: 0.5;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.7);
+}
+
+.carousel__item.active {
+  display: block;
+}
+
