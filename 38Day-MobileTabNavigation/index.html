@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+		integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<title>Mobile Tab Navigation</title>
+</head>
+
+<body>
+
+	<h1 class="title">Mobile Tab Navigation</h1>
+
+	<div class="container">
+		<div class="mobile">
+			<div class="mobile__screen">
+				<div class="mobile__screen-item mobile__screen-item--active" id="home">
+					<img src="https://images.unsplash.com/photo-1640622333296-8ab33c125200?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Home" class="mobile__screen-img">
+				</div>
+				<div class="mobile__screen-item" id="work">
+					<img src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Work" class="mobile__screen-img">
+				</div>
+				<div class="mobile__screen-item" id="blog">
+					<img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80" alt="Blog" class="mobile__screen-img">
+				</div>
+				<div class="mobile__screen-item" id="aboutUs">
+					<img src="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="About Us" class="mobile__screen-img">
+				</div>
+
+			</div>
+			<nav class="mobile__nav">
+				<ul class="mobile__list">
+					<li class="mobile__li">
+						<a href="#home" class="mobile__link mobile__link--active">
+							<i class="fas fa-home"></i>
+							<span>Home</span>
+						</a>
+					</li>
+					<li class="mobile__li">
+						<a href="#work" class="mobile__link">
+							<i class="fas fa-briefcase"></i>
+							<span>Work</span>
+						</a>
+					</li>
+					<li class="mobile__li">
+						<a href="#blog" class="mobile__link">
+							<i class="fas fa-book-open"></i>
+							<span>Blog</span>
+						</a>
+					</li>
+					<li class="mobile__li">
+						<a href="#aboutUs" class="mobile__link">
+							<i class="fas fa-users"></i>
+							<span>About Us</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+
+
+	<script src="app.js"></script>
+</body>
+
+</html>

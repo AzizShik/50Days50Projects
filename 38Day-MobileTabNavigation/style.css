@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+img {
+  max-height: 100%;
+  width: 100%;
+  vertical-align: top;
+  object-fit: cover;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  overflow-x: hidden;
+  color: #333;
+  background-color: #faaca8;
+  background-image: linear-gradient(19deg, #faaca8 0%, #ddd6f3 100%);
+
+  min-height: 100vh;
+}
+
+.title {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 1360px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.mobile {
+  background: #ddd6f3;
+  display: inline-block;
+  border-radius: 10px;
+}
+.mobile__screen {
+}
+.mobile__screen-item {
+  display: none;
+  transition: all 0.4s ease;
+}
+.mobile__screen-img {
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+}
+.mobile__nav {
+}
+.mobile__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.mobile__li {
+  width: calc(100% / 4 - 10px);
+  margin: 0 5px;
+}
+.mobile__link {
+  display: inline-block;
+  padding: 10px 14px;
+  background: rgba(0, 0, 0, 0.2);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 18px;
+  width: 100%;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s ease;
+}
+
+.mobile__link span {
+  font-size: 21px;
+  pointer-events: none;
+}
+
+.fas {
+  color: #fff;
+  font-size: 24px;
+  pointer-events: none;
+}
+
+.mobile__link:hover {
+  opacity: 0.6;
+}
+
+.mobile__link:active {
+  opacity: 0.3;
+}
+
+.mobile__link--active {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  background: #faaca8;
+}
+
+.mobile__screen-item--active {
+  display: block;
+  animation: itemShow 0.8s ease forwards;
+}
+
+@keyframes itemShow {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
