@@ -38,3 +38,4 @@
 36Day Hoverboard https://azizshik.github.io/50Days50Projects/36Day-Hoverboard/ <br>
 37Day Pokedex https://azizshik.github.io/50Days50Projects/37Day-Pokedex/ <br>
 38Day MobileTabNavigation https://azizshik.github.io/50Days50Projects/38Day-MobileTabNavigation/ <br>
+39Day BgBoxed https://azizshik.github.io/50Days50Projects/38Day-MobileTabNavigation/ <br>
