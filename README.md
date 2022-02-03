@@ -40,3 +40,4 @@
 38Day MobileTabNavigation https://azizshik.github.io/50Days50Projects/38Day-MobileTabNavigation/ <br>
 39Day BlurBg https://azizshik.github.io/50Days50Projects/39Day-PasswordStrengthBackground/ <br>
 40Day BgBoxes https://azizshik.github.io/50Days50Projects/40Day-BgBoxes/ <br>
+41Day VerifyUI https://azizshik.github.io/50Days50Projects/41Day-VerifyUI/ <br>
