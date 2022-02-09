@@ -44,3 +44,4 @@
 42Day UserFilter https://azizshik.github.io/50Days50Projects/42Day-UserFilter/ <br>
 43Day FeedbackUI https://azizshik.github.io/50Days50Projects/43Day-FeedbackUI/ <br>
 44Day Custom Range Slider https://azizshik.github.io/50Days50Projects/44Day-CustomRangeSlider/ <br>
+45Day Custom Range Slider https://azizshik.github.io/50Days50Projects/45Day-NetflixNavigation/ <br>
