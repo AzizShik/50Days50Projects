@@ -47,3 +47,4 @@
 45Day NetflixNavigation https://azizshik.github.io/50Days50Projects/45Day-NetflixNavigation/ <br>
 46Day QuizApp https://azizshik.github.io/50Days50Projects/46Day-Quiz/ <br>
 47Day Box Switcher https://azizshik.github.io/50Days50Projects/47Day-BoxSwitcher/ <br>
+48Day Random Image Feed https://azizshik.github.io/50Days50Projects/48Day-RandomImageFeed/ <br>
