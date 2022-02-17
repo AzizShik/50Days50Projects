@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+  object-fit: cover;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  overflow-x: hidden;
+  color: #ffffff;
+  background: rgb(34, 34, 34);
+
+
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 64px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.todo {
+}
+
+.container {
+}
+
+.todo__inner {
+}
+
+.todo__input, .todo__li {
+  border: 1px solid grey;
+  padding: 15px;
+
+}
+
+.todo__input {
+  font-size: 21px;
+  margin: 0 auto;
+  display: block;
+  max-width: 540px;
+  width: 100%;
+  border-bottom: 2px solid red;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.todo__input::placeholder {
+  text-align: center;
+}
+
+.todo__list {
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.todo__li {
+  font-size: 24px;
+  background: #fff;
+  color: #111;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.todo__placeholder {
+  margin: 0 auto;
+  margin-top: 100px;
+  display: block;
+  max-width: 540px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 32px;
+}
+
+.todo__li.check {
+  opacity: .5;
+  text-decoration: line-through;
+}
