@@ -49,3 +49,4 @@
 47Day Box Switcher https://azizshik.github.io/50Days50Projects/47Day-BoxSwitcher/ <br>
 48Day Random Image Feed https://azizshik.github.io/50Days50Projects/48Day-RandomImageFeed/ <br>
 49Day Todo List https://azizshik.github.io/50Days50Projects/49Day-TodoList/ <br>
+50Day Insect Catch Game https://azizshik.github.io/50Days50Projects/50Day-InsectCatchGame/ <br>
